@@ -10,18 +10,18 @@ The assessment focuses on architecture, performance, typing and usability not on
 
 Required by the assignment instruction (all four):
 
-1. **Create a new note of the specified size at the specified position.** - press on the empty board and drag to draw the note. A live outline shows its size. Double-clicking the board drops a default-sized note at the pointer, and the **+ Note** button adds one near the middle.
-2. **Change note size by dragging.** - drag the grip in a note's bottom-right corner.
-3. **Move a note by dragging.** - drag a note by its top bar.
-4. **Remove a note by dragging it over a predefined "trash" zone.** - drag a note over the zone in the bottom-right corner and release; the zone lights up while the note is over it.
+1. **Create a new note of the specified size at the specified position** - press on the empty board and drag to draw the note. A live outline shows its size. Double-clicking the board drops a default-sized note at the pointer, and the **+ Note** button adds one near the middle.
+2. **Change note size by dragging** - drag the grip in a note's bottom-right corner.
+3. **Move a note by dragging** - drag a note by its top bar.
+4. **Remove a note by dragging it over a predefined "trash" zone** - drag a note over the zone in the bottom-right corner and release; the zone lights up while the note is over it.
 
 Bonus from the assessment instruction (all five):
 
-1. **Entering/editing note text.** - every note has a title and a body. A new note is focused straight away.
-2. **Moving notes to front (in case of overlapping notes).** - pressing anywhere on a note raises it above the others.
-3. **Saving notes to local storage (restoring them on page load).** – notes are saved automatically and restored on page load.
-4. **Different note colors.** – the toolbar sets the color of new notes. The palette button on a note recolors it.
-5. **Saving notes to REST API.** – a REST storage adapter, runnable against an asynchronous in-browser mock.
+1. **Entering/editing note text** - every note has a title and a body. A new note is focused straight away.
+2. **Moving notes to front (in case of overlapping notes)** - pressing anywhere on a note raises it above the others.
+3. **Saving notes to local storage (restoring them on page load)** – notes are saved automatically and restored on page load.
+4. **Different note colors** – the toolbar sets the color of new notes. The palette button on a note recolors it.
+5. **Saving notes to REST API** – a REST storage adapter, runnable against an asynchronous in-browser mock.
 
 Beyond the assesment instruction:
 
