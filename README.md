@@ -46,8 +46,6 @@ npm test           # unit tests
 
 - **Local storage** is the default.
 - **Mock API** (`npm run dev:mock-api`, or `VITE_NOTES_STORAGE=mock-api`): the app uses the same REST adapter it would use against a server, but requests are answered by `src/storage/mockNotesApi.ts`, with a random delay of 150–600 ms per request. This shows the "Saving…" state and overlapping edits as they would behave over a network.
-- **Real server**: set `VITE_NOTES_API_URL` in `.env.local` (see `.env.example`). The API is
-  expected to expose the notes as one resource: `GET {url}/notes` returns the array of notes and `PUT {url}/notes` replaces it. No server is included in this repository.
 
 ## Project structure
 
